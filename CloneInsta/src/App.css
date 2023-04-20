@@ -1,7 +1,6 @@
 .App {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
 }
 
 .LadoEsquerdo,
@@ -13,13 +12,16 @@
 .LadoEsquerdo {
   background: #FFFFFF;
   border-right: 1px solid #ccc;
-  width: 20vw;
+  width: 335px;
 }
 
 .LadoDireito {
-  width: 15vw;
+  width: 319px;
+  height: 400px;
+  margin-right: 5rem;
 }
 
 .Centro {
   color: #000;
+  margin-left: 12%;
 }

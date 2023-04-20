@@ -1,22 +1,21 @@
 import './App.css';
 import Feed from './componentes/Feed/Feed';
+import Story from './componentes/Stories/Storyes';
+import LadoEsquerdo from './componentes/LadoEsquerdo/LadoEsquerdo'
+import LadoDireito from './componentes/LadoDireito/LadoDireito'
 
 function App() {
   return (
     <div className="App">
-      <div className='LadoEsquerdo'>
-        Lado Esquerdo
-      </div>
+      <LadoEsquerdo />
 
       <div className='Centro'>
-        <div className='Stories'>Stories</div>
-        
+        <Story />
         <Feed />
-        <div className='Feed'>Feed</div>
       </div>
 
       <div className='LadoDireito'>
-        Lado Direito
+        <LadoDireito/>
       </div>
     </div>
   );

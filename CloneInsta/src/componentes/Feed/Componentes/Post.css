@@ -1,0 +1,126 @@
+.Post {
+    background: transparent;
+    border-bottom: 1px solid #ddd;
+    width: 468px;
+    min-height: 518px;
+    margin: 12px 0 0 0;
+    margin-left: 19%;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.BarraSuperior {
+    height: 58px;
+    display: flex;
+    align-items: center;
+}
+
+.ponto{
+    display: inline;
+    margin-left: 4px;
+    margin-right: 4px;
+    color: rgb(115,115,115);
+    line-height: 16px;
+    font-size: 10px;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.tempo{
+    display: inline;
+    margin-bottom: 3px;
+    color: rgb(115,115,115);
+    line-height: 16px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.ConteudoPost img{
+    object-fit: cover;
+    width: 467px;
+    height: 545px;
+    border-radius: 05px;
+}
+
+header img{
+    border-radius: 20px;
+    height: 32px;
+    width: 32px;
+    margin: 0 8px 0 8px;
+}
+
+.MenuBarraSuperior{
+    width: 24px;
+    height: 24px;
+
+}
+
+.MenuInferior{
+padding: 10px 15px;
+}
+
+.barraInf{
+    display: flex;
+   justify-content: space-between;
+}
+
+.barraInf .icons-1{
+    display: flex;
+    gap: 16px;
+}
+
+.icon{
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.icon:hover{
+    color: #cacaca;
+}
+
+
+.likes{
+    margin-top: 6px;
+}
+
+.likes span{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.legenda{
+    margin-top: 6px;
+    font-size: 14px;
+}
+
+.legenda strong{
+    font-size: 14px;
+
+}
+
+.comentario textarea{
+    width: 100%;
+    border: none;
+    font-size: 16px;
+}
+
+.comentario {
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+
+    flex: 1;
+}
+
+.view-coment{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #6e6d6d;
+}

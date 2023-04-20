@@ -1,0 +1,11 @@
+.Stories {
+    display: flex;
+    background: transparent;
+    width: 750px;
+    background: rgba(255, 0, 0, 0);
+    overflow: hidden;
+    border-radius: 20px;
+    height: 100px;
+    margin: 50px 0px 0 0px;
+    justify-content: center;
+}

@@ -1,0 +1,39 @@
+.Story {
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    position: relative;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-right: 8px;
+    margin-left: 9px;
+}
+
+.elements:hover {
+    cursor: pointer;
+    opacity: 0.85;
+}
+
+.elements{
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 76%, rgba(252, 176, 69, 1) 100%);
+    padding-right: 2px;
+}
+
+.imgStory {
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+    margin-top: 2.5px;
+    margin-left: 3.5px;
+}
+
+.Story .nomeStory {
+    text-align: center;
+    font-size: 14px;
+}
