@@ -63,14 +63,14 @@ export default function BarraLateral(props) {
                 <div className='sugestion-User'>
 
                     <div className='imgPerfil'>
-                        <img src={props.userSugestion} />
+                        <img src={props.userSugestion2} />
                     </div>
 
                     <div className='UserNome'>
-                        {props.NameSugestion}
+                        {props.NameSugestion2}
 
                         <div className='Seguidores'>
-                            {props.seguidores}
+                            {props.seguidores2}
                         </div>
                     </div>
 

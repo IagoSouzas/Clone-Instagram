@@ -1,7 +1,9 @@
 import './Post.css'
+
 import { FiMoreHorizontal } from "react-icons/fi";
 import { CgSmile } from 'react-icons/cg'
 import { TbPointFilled } from "react-icons/tb";
+
 
 export default function Post(props) {
     return (
@@ -52,7 +54,7 @@ export default function Post(props) {
                 </section>
 
                 <div className='legenda'>
-                    <strong>Kill.Joy</strong> Conheça a Agente KillJoy e suas criaturas
+                    <strong>{props.legeName}</strong> {props.legenda}
 
                 </div>
 
@@ -61,8 +63,7 @@ export default function Post(props) {
                 </p>
 
                 <div className='comentario'>
-                    <textarea type='text' placeholder='Adicione um comentário...'>
-                    </textarea>
+                    <input type='text' placeholder='Adicione um comentário...' />
                     {<CgSmile />}
                 </div>
 

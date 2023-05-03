@@ -11,6 +11,7 @@ import { RiMessengerLine } from 'react-icons/ri'
 import { BsPlusSquare } from 'react-icons/bs'
 import { BiVideoPlus } from 'react-icons/bi'
 import { FiHeart } from 'react-icons/fi'
+import { HiMenu } from 'react-icons/hi'
 
 export default function LadoEsquerdo() {
     return (
@@ -38,7 +39,7 @@ export default function LadoEsquerdo() {
                 </div>
 
                 <div className='menssagem'>
-                    <ItemMenu icone={<RiMessengerLine />} texto="Menssagem" />
+                    <ItemMenu icone={<RiMessengerLine />} texto="Mensagem" />
                 </div>
 
                 <div className='notificacao'>
@@ -49,13 +50,15 @@ export default function LadoEsquerdo() {
                     <ItemMenu icone={<BsPlusSquare />} texto="Criar" />
                 </div>
 
-
                 <div className='perfil'>
                     <img src={imgPerfil} />
                     <p>Profile</p>
                 </div>
 
+            </div>
 
+            <div className='Menu_Infi'>
+            <ItemMenu  icone={<HiMenu/>}  texto= "Mais"/>
             </div>
 
         </div>

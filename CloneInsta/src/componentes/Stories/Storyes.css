@@ -1,8 +1,7 @@
 .Stories {
     display: flex;
-    background: transparent;
     width: 750px;
-    background: rgba(255, 0, 0, 0);
+    background: rgba(185, 20, 20, 0);
     overflow: hidden;
     border-radius: 20px;
     height: 100px;
