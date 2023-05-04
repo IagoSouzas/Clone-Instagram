@@ -3,9 +3,15 @@ import './Post.css'
 import { FiMoreHorizontal } from "react-icons/fi";
 import { CgSmile } from 'react-icons/cg'
 import { TbPointFilled } from "react-icons/tb";
+import { useState } from 'react';
+
+import {FiHeart} from 'react-icons/fi'
 
 
 export default function Post(props) {
+    const [liked, setLiked] = useState(false);
+    // liked -> Valor atual;
+    // setLiked -> Novo valor
     return (
         <div className='Post'>
             <header>
@@ -38,7 +44,11 @@ export default function Post(props) {
                 <section className='barraInf'>
 
                     <div className='icons-1'>
-                        <div className='icon'>{props.reagir}</div>
+                        <button className={`icon`} onClick={() => setLiked(!liked)}>
+                            <FiHeart fill={`${liked ? "red" : "transparent"}`} 
+                            style={{color:`${liked ? "red" : "black" }`}}
+                            />
+                        </button>
                         <div className='icon'>{props.coment}</div>
                         <div className='icon'>{props.enviar}</div>
                     </div>
