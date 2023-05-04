@@ -5,6 +5,8 @@
 
 ![instagram](https://user-images.githubusercontent.com/124836944/236352281-c73aa465-7bf3-422e-826e-29b1438996c7.svg)
 
+<i> Imagem do projeto </i>
+
 <h3> 
     Para utilizar você precisa:
 </h3>
