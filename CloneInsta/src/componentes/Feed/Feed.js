@@ -26,7 +26,7 @@ export default function Feed() {
 
                 ConteudoPost={imgnobara}
 
-                reagir={<FiHeart/>}
+
                 coment={<FaRegComment/>}
                 enviar={<FiSend/>}
                 salvar={<BsBookmark/>}
@@ -36,7 +36,6 @@ export default function Feed() {
             
 
             <Post NomeUser='Nico Robin' ConteudoPost={imgRobin} ImagemPerfil={imgNico} 
-            reagir={<FiHeart/>}
             coment={<FaRegComment/>}
             enviar={<FiSend/>}
             salvar={<BsBookmark/>}
@@ -44,7 +43,6 @@ export default function Feed() {
             legenda="Finalmente encontrei uma calmaria em mim💗💗"
             />
             <Post NomeUser='Luffy' ConteudoPost={imgRuffy} ImagemPerfil={imgLuffy} 
-            reagir={<FiHeart/>}
             coment={<FaRegComment/>}
             enviar={<FiSend/>}
             salvar={<BsBookmark/>}
