@@ -108,6 +108,10 @@ padding: 10px 15px;
     font-size: 14px;
     font-weight: 600;
 }
+button{
+    border: none;
+    background: transparent;
+}
 
 /* legenda */
 .legenda{
